@@ -10,24 +10,24 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Svart Hal | We Are The Firewall."
-title_separator          : "-"
-subtitle                 : Your Last Line Of Cyber Defense
-name                     : "Svart Hal"
-description              : "Your Last Line Of Cyber Defense."
+title_separator          : "  | "
+subtitle                 : "Your Last Line In Cyber Defense"
+name                     : "Svart Hal | We Are The Firewall"
+description              : "Your Last Line In Cyber Defense."
 url                      : https://svarthal.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "/Svart-Hal"
 teaser                   : # "/assets/images/logo.jpg"
-logo                     : "/assets/images/logo.jpg"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+logo                     : # "/assets/images/logo.jpg"
+masthead_title           : # "Svart Hal"
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -53,7 +53,7 @@ staticman:
   path                   : # "/_data/comments/{options.slug}" (default)
   requiredFields         : # ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : "md5"
   generatedFields:
     date:
       type               : # "date"
@@ -65,8 +65,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true
+search_full_content      : true
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -84,7 +84,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : svarthal_io
 facebook:
   username               :
   app_id                 :
@@ -93,8 +93,8 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Svart Hal
+  name                   : Jason Brown
   links: # An array of links to social media profiles
 
 # Analytics
@@ -107,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jason Brown"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : President
+  location         : "Michigan, USA"
+  email            : jason.brown@svarthal.io
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -137,7 +137,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/svarthal_io"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
